@@ -1,0 +1,180 @@
+[20Apr2025 20:40:57.734] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.77, --assetIndex, 17, --assetsDir, C:\\Users\\pouff\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.1.77, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[20Apr2025 20:40:57.737] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[20Apr2025 20:40:57.739] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[20Apr2025 20:40:57.859] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20Apr2025 20:40:57.973] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20Apr2025 20:40:58.122] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20Apr2025 20:40:58.244] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/pouff/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23131!/ Service=ModLauncher Env=CLIENT
+[20Apr2025 20:40:58.521] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 565.90, NVIDIA Corporation
+[20Apr2025 20:40:58.687] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20Apr2025 20:40:58.689] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.77 (neoforge)
+		One Block 1.0.0 (oneblock)
+[20Apr2025 20:40:59.688] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.77, --gameDir, ., --assetsDir, C:\Users\pouff\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[20Apr2025 20:40:59.747] [main/WARN] [mixin/]: Reference map 'oneblock.refmap.json' for oneblock.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Apr2025 20:41:01.423] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 470 milliseconds
+[20Apr2025 20:41:01.595] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Apr2025 20:41:05.760] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Apr2025 20:41:05.762] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Apr2025 20:41:05.764] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20Apr2025 20:41:05.765] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20Apr2025 20:41:05.765] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Apr2025 20:41:05.867] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/pouff/Documents/GitHub/OneBlock/build/moddev/artifacts/neoforge-21.1.77-minecraft-merged.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[20Apr2025 20:41:05.868] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/pouff/Documents/GitHub/OneBlock/build/moddev/artifacts/neoforge-21.1.77-minecraft-merged.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[20Apr2025 20:41:05.891] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20Apr2025 20:41:05.899] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20Apr2025 20:41:05.981] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[20Apr2025 20:41:06.225] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.77, for MC 1.21.1
+[20Apr2025 20:41:06.234] [modloading-worker-0/INFO] [com.pouffydev.oneblock.OneBlock/]: [One Block] Registering Objects...
+[20Apr2025 20:41:06.910] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [oneblock]
+[20Apr2025 20:41:07.029] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/oneblock, mod/neoforge
+[20Apr2025 20:41:07.171] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[20Apr2025 20:41:07.280] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[20Apr2025 20:41:07.811] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'oneblock:blockstates/the_one_block.json' missing model for variant: 'oneblock:the_one_block#'
+[20Apr2025 20:41:07.811] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'oneblock:item/debug_wrench' referenced from: oneblock:item/debug_wrench: java.io.FileNotFoundException: oneblock:models/item/debug_wrench.json
+[20Apr2025 20:41:08.308] [Worker-Main-4/INFO] [com.pouffydev.oneblock.OneBlock/]: [One Block] Load Complete!
+[20Apr2025 20:41:08.420] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20Apr2025 20:41:08.420] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20Apr2025 20:41:08.463] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (ACCENTUM Plus)
+[20Apr2025 20:41:08.463] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20Apr2025 20:41:08.569] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20Apr2025 20:41:08.578] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20Apr2025 20:41:08.578] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20Apr2025 20:41:08.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20Apr2025 20:41:08.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20Apr2025 20:41:08.581] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20Apr2025 20:41:08.581] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20Apr2025 20:41:08.583] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20Apr2025 20:41:08.583] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20Apr2025 20:41:08.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20Apr2025 20:41:08.751] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20Apr2025 20:41:08.751] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20Apr2025 20:41:08.751] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20Apr2025 20:41:08.751] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20Apr2025 20:41:08.779] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20Apr2025 20:41:08.819] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[20Apr2025 20:41:12.511] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[20Apr2025 20:41:12.671] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[20Apr2025 20:41:13.047] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20Apr2025 20:41:13.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Apr2025 20:41:13.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Apr2025 20:41:13.517] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 20:41:13.573] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20Apr2025 20:41:13.578] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 250 ms
+[20Apr2025 20:41:13.666] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20Apr2025 20:41:13.666] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20Apr2025 20:41:14.281] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:53b46c63] logged in with entity id 6 at (6.993181240943208, -60.0, -16.63881796710015)
+[20Apr2025 20:41:14.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20Apr2025 20:41:14.834] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 127 advancements
+[20Apr2025 20:42:10.078] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Apr2025 20:42:10.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Apr2025 20:42:10.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Apr2025 20:42:10.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Apr2025 20:42:10.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20Apr2025 20:42:10.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20Apr2025 20:42:10.590] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20Apr2025 20:42:10.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Apr2025 20:42:10.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Apr2025 20:42:10.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Apr2025 20:42:10.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Apr2025 20:42:10.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Apr2025 20:42:10.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Apr2025 20:42:10.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20Apr2025 20:42:10.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Apr2025 20:42:10.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Apr2025 20:42:10.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Apr2025 20:42:39.690] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[20Apr2025 20:42:39.758] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[20Apr2025 20:42:40.070] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20Apr2025 20:42:40.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Apr2025 20:42:40.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Apr2025 20:42:40.200] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 20:42:40.219] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20Apr2025 20:42:40.221] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 59 ms
+[20Apr2025 20:42:40.228] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20Apr2025 20:42:40.228] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20Apr2025 20:42:40.449] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:e70e9118] logged in with entity id 96 at (5.276497257716837, -55.63180472284666, -20.434520621154757)
+[20Apr2025 20:42:40.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20Apr2025 20:42:40.511] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 127 advancements
+[20Apr2025 20:42:50.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 6 entities]
+[20Apr2025 20:42:50.803] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 6 entities
+[20Apr2025 20:42:53.521] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Apr2025 20:42:53.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Apr2025 20:42:53.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Apr2025 20:42:53.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Apr2025 20:42:54.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20Apr2025 20:42:54.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20Apr2025 20:42:54.183] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20Apr2025 20:42:54.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Apr2025 20:42:54.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Apr2025 20:42:54.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Apr2025 20:42:54.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Apr2025 20:42:54.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Apr2025 20:42:54.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Apr2025 20:42:54.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20Apr2025 20:42:54.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Apr2025 20:42:54.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Apr2025 20:42:54.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Apr2025 21:46:33.634] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[20Apr2025 21:46:33.730] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[20Apr2025 21:46:34.258] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20Apr2025 21:46:34.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Apr2025 21:46:34.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Apr2025 21:46:34.524] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 21:46:34.568] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20Apr2025 21:46:34.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20Apr2025 21:46:34.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20Apr2025 21:46:34.581] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 185 ms
+[20Apr2025 21:46:34.848] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:514717e5] logged in with entity id 121 at (5.276497257716837, -55.63180472284666, -20.434520621154757)
+[20Apr2025 21:46:34.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20Apr2025 21:46:34.967] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 127 advancements
+[20Apr2025 21:46:53.475] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: null
+	Index: 0
+	Listeners:
+		0: net.neoforged.bus.EventListenerFactory$onTick/0x000002004adb0800@34a266be
+		1: net.neoforged.neoforge.common.NeoForgeMod$$Lambda/0x000002004adbf398@7e2f31fd
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+	at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+	at TRANSFORMER/oneblock@1.0.0/com.pouffydev.oneblock.handler.LevelHandler.onTick(LevelHandler.java:54)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315)
+	at TRANSFORMER/neoforge@21.1.77/net.neoforged.neoforge.event.EventHooks.fireLevelTickPost(EventHooks.java:982)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1058)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:113)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20Apr2025 21:46:53.476] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605) ~[?:?]
+	at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628) ~[?:?]
+	at TRANSFORMER/oneblock@1.0.0/com.pouffydev.oneblock.handler.LevelHandler.onTick(LevelHandler.java:54) ~[%23185!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%23141!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.2.jar%23141!/:?]
+	at TRANSFORMER/neoforge@21.1.77/net.neoforged.neoforge.event.EventHooks.fireLevelTickPost(EventHooks.java:982) ~[neoforge-21.1.77-minecraft-merged.jar%23184!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1058) ~[neoforge-21.1.77-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.77-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:113) ~[neoforge-21.1.77-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.77-minecraft-merged.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.77-minecraft-merged.jar%23183!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20Apr2025 21:46:53.610] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID efa08495-ce2b-49d6-9e96-f1919037769f
+[20Apr2025 21:46:53.611] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\pouff\Documents\GitHub\OneBlock\run\.\crash-reports\crash-2025-04-20_21.46.53-server.txt
+[20Apr2025 21:46:53.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Apr2025 21:46:53.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Apr2025 21:46:53.624] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 2b5e52d3-f785-4ec2-a00d-514f8f7cfa3c
+[20Apr2025 21:46:53.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Apr2025 21:46:53.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Apr2025 21:46:53.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Apr2025 21:46:53.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Apr2025 21:46:53.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20Apr2025 21:46:53.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Apr2025 21:46:53.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Apr2025 21:46:53.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

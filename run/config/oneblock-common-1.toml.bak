@@ -1,0 +1,4 @@
+#Play settings
+[Play]
+	#Defines the stage at which the OneBlock should start with. Defaults to oneblock:00
+	StartingStage = "oneblock:00"

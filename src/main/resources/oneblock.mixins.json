@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "priority": 1100,
+  "package": "com.pouffydev.oneblock.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "plugin": "com.pouffydev.oneblock.mixin.plugin.OneBlockMixinsPlugin",
+  "refmap": "oneblock.refmap.json",
+  "mixins": [
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

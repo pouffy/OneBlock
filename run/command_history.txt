@@ -1,0 +1,10 @@
+/neoforge dump registry oneblock:entry_type
+/give @s oneblock:debug_wrench
+/reload
+/give @s oneblock:debug_wrench
+/setblock 11 -60 -19 oneblock:the_one_block
+/tick freeze
+/setblock 11 -60 -19 oneblock:the_one_block
+/tick unfreeze
+/give @s oneblock:debug_wrench
+/kill @e[type=!player]

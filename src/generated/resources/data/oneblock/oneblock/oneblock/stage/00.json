@@ -1,0 +1,64 @@
+{
+  "amount": 45,
+  "end_gift": {
+    "type": "oneblock:gift",
+    "block_state": {
+      "Name": "minecraft:chest",
+      "Properties": {
+        "type": "single",
+        "facing": "north",
+        "waterlogged": "false"
+      }
+    },
+    "loot_table": "minecraft:chests/ruined_portal"
+  },
+  "entries": [
+    {
+      "type": "oneblock:block",
+      "block_state": {
+        "Name": "minecraft:stone"
+      },
+      "weight": 10
+    },
+    {
+      "type": "oneblock:block",
+      "block_state": {
+        "Name": "minecraft:dirt"
+      },
+      "weight": 15
+    },
+    {
+      "type": "oneblock:block",
+      "block_state": {
+        "Name": "minecraft:gravel"
+      },
+      "weight": 13
+    },
+    {
+      "type": "oneblock:block",
+      "block_state": {
+        "Name": "minecraft:sand"
+      },
+      "weight": 12
+    },
+    {
+      "type": "oneblock:gift",
+      "block_state": {
+        "Name": "minecraft:chest",
+        "Properties": {
+          "type": "single",
+          "facing": "north",
+          "waterlogged": "false"
+        }
+      },
+      "loot_table": "minecraft:chests/abandoned_mineshaft",
+      "weight": 2
+    },
+    {
+      "type": "oneblock:mob",
+      "entity": "minecraft:zombie",
+      "weight": 6
+    }
+  ],
+  "next_stage": "oneblock:01"
+}

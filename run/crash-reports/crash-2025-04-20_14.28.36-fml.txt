@@ -1,0 +1,115 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2025-04-20 14:28:36
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.ValueWriter.write(ValueWriter.java:62) ~[toml-3.8.0.jar%23100!/:?] {}
+-- Mod loading issue --
+Details:
+	Mod file: <No mod information provided>
+	Failure message: An uncaught parallel processing error has occurred.
+		com.electronwill.nightconfig.core.io.WritingException: Unsupported value type: class net.minecraft.resources.ResourceKey
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: com.electronwill.nightconfig.core.io.WritingException: Unsupported value type: class net.minecraft.resources.ResourceKey
+Stacktrace:
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.ValueWriter.write(ValueWriter.java:62) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableWriter.writeWithHeader(TableWriter.java:161) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableWriter.writeSubTables(TableWriter.java:183) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableWriter.writeWithHeader(TableWriter.java:130) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableWriter.writeTopLevel(TableWriter.java:48) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TomlWriter.write(TomlWriter.java:42) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.io.ConfigWriter.write(ConfigWriter.java:47) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.io.ConfigWriter.write(ConfigWriter.java:91) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.io.ConfigWriter.write(ConfigWriter.java:76) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.writeConfig(ConfigTracker.java:272) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.setupConfigFile(ConfigTracker.java:257) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.loadConfig(ConfigTracker.java:176) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.openConfig(ConfigTracker.java:140) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.lambda$loadConfigs$2(ConfigTracker.java:124) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {}
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:124) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:119) ~[loader-4.0.31.jar%23139!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.77/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$1(CommonModLoader.java:64) ~[neoforge-21.1.77-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.4, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 311117848 bytes (296 MiB) / 687865856 bytes (656 MiB) up to 21458059264 bytes (20464 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4070
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 12282.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.6590
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 2.67
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 32768.00
+	Memory slot #3 clockSpeed (GHz): 2.67
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 86966.23
+	Virtual memory used (MiB): 32818.04
+	Swap memory total (MiB): 5120.00
+	Swap memory used (MiB): 0.91
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 340521.34, total: 953026.00
+	Space in storage for workdir (MiB): available: 340521.34, total: 953026.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.31.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.31.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.31.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.77-minecraft-merged.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.77-minecraft-merged.jar             |NeoForge                      |neoforge                      |21.1.77             |Manifest: NOSIGNATURE
+		main                                              |One Block                     |oneblock                      |1.0.0               |Manifest: NOSIGNATURE
+	Crash Report UUID: 4eb65335-c16a-475a-ae71-4708ece6360e
+	FML: 4.0.31
+	NeoForge: 21.1.77
